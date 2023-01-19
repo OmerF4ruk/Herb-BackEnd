@@ -1,0 +1,15 @@
+{
+  "name": "herb-backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "farukac",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
