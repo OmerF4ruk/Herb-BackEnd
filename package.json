@@ -5,11 +5,20 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
+  "type": "module",
   "author": "farukac",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^2.29.3"
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "process": "^0.11.10"
   }
 }
